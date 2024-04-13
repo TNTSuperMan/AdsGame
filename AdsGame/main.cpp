@@ -54,7 +54,6 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 				type = w.right_type;
 				isultra = w.right_isUltra;
 			}
-			printfDx("%d",isultra);
 			if (isultra) {
 				switch (isultra) {
 				case 1:
